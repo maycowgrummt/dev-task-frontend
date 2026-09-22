@@ -30,5 +30,5 @@ O projeto foi construído utilizando ferramentas e tecnologias modernas de merca
 ---
 
 👨‍💻 Autor
-Desenvolvido por Maycow Augusto Grummt.
-Se quiser trocar uma ideia sobre tecnologia, projetos ou oportunidades, entre em contato comigo através do meu GitHub.
+
+Desenvolvido por: Maycow Augusto Grummt.
