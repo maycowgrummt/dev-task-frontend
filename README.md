@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# 🗓️ Dev Task Manager | Sistema Multi-Módulos de Produtividade
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este é um projeto desenvolvido por mim como parte do meu portfólio de desenvolvimento frontend. O objetivo foi criar uma aplicação web moderna, limpa e altamente funcional para o gerenciamento de tarefas divididas por categorias do dia a dia (Trabalho, Estudos, Rotina, Compras, etc.), garantindo uma excelente experiência de usuário (UX) e persistência de dados local.
 
-Currently, two official plugins are available:
+🔗 **Acesse o projeto online:** [https://maycowgrummt.github.io/dev-task-frontend/](https://maycowgrummt.github.io/dev-task-frontend/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi construído utilizando ferramentas e tecnologias modernas de mercado:
 
-## Expanding the Oxlint configuration
+* **React** com **TypeScript** (Tipagem estática e componentes reutilizáveis)
+* **Vite** (Empacotador ultrarrápido)
+* **Tailwind CSS** (Estilização responsiva e design system moderno)
+* **Lucide React** (Ícones vetoriais limpos)
+* **LocalStorage** (Persistência de dados no navegador do usuário)
+* **Git & GitHub / GitHub Pages** (Versionamento e deploy automatizado)
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## ✨ Funcionalidades Principais
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+* **Navegação por Módulos:** Separação de tarefas por categorias específicas (Lista de Compras, Rotina Diária, Viagem, Tarefas, Trabalho e Estudos).
+* **Progresso Dinâmico:** Barras de progresso em tempo real que calculam o percentual de conclusão por categoria.
+* **Filtros Inteligentes:** Opção para visualizar todas as tarefas, apenas as pendentes ou apenas as concluídas.
+* **Persistência de Estado:** Os dados inseridos ficam salvos no navegador utilizando o `localStorage`.
+* **Interface Responsiva:** Layout adaptado tanto para dispositivos móveis quanto para desktops, utilizando um tema escuro profissional.
+
+---
+
+## 💻 Como Executar o Projeto Localmente
+
+Se quiser rodar o projeto na sua máquina, siga os passos abaixo:
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/maycowgrummt/dev-task-frontend.git](https://github.com/maycowgrummt/dev-task-frontend.git)
+
+# 2. Entre na pasta do projeto
+cd dev-task-frontend
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
+
+👨‍💻 Autor
+Desenvolvido por Maycow Augusto Grummt.
+Se quiser trocar uma ideia sobre tecnologia, projetos ou oportunidades, entre em contato comigo através do meu GitHub.
