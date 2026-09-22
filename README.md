@@ -29,23 +29,6 @@ O projeto foi construído utilizando ferramentas e tecnologias modernas de merca
 
 ---
 
-## 💻 Como Executar o Projeto Localmente
-
-Se quiser rodar o projeto na sua máquina, siga os passos abaixo:
-
-```bash
-# 1. Clone o repositório
-git clone [https://github.com/maycowgrummt/dev-task-frontend.git](https://github.com/maycowgrummt/dev-task-frontend.git)
-
-# 2. Entre na pasta do projeto
-cd dev-task-frontend
-
-# 3. Instale as dependências
-npm install
-
-# 4. Inicie o servidor de desenvolvimento
-npm run dev
-
 👨‍💻 Autor
 Desenvolvido por Maycow Augusto Grummt.
 Se quiser trocar uma ideia sobre tecnologia, projetos ou oportunidades, entre em contato comigo através do meu GitHub.
