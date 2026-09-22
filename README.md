@@ -1,4 +1,4 @@
-# 🗓️ Dev Task Manager | Sistema Multi-Módulos de Produtividade
+# 🗓️ Organizador de Tarefas Diárias | Sistema Multi-Módulos de Produtividade
 
 Este é um projeto desenvolvido por mim como parte do meu portfólio de desenvolvimento frontend. O objetivo foi criar uma aplicação web moderna, limpa e altamente funcional para o gerenciamento de tarefas divididas por categorias do dia a dia (Trabalho, Estudos, Rotina, Compras, etc.), garantindo uma excelente experiência de usuário (UX) e persistência de dados local.
 
