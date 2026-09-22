@@ -23,19 +23,19 @@ const TABS = [
 export default function App() {
   const [activeTab, setActiveTab] = useState(TABS[0].id);
   
-  // Estado para armazenar as tarefas separadas por cada aba/categoria
+  // Estado para armazenar as tarefas separadas por cada aba/categoria (inicializadas vazias)
   const [tasksByTab, setTasksByTab] = useState<CategoriesData>(() => {
     const saved = localStorage.getItem('@DevTaskManager:tabs_v1');
     if (saved) {
       return JSON.parse(saved);
     }
     return {
-      compras: [{ id: '1', title: 'Comprar café e leite', completed: false }],
-      rotina: [{ id: '2', title: 'Meditar por 10 minutos', completed: true }],
+      compras: [],
+      rotina: [],
       viagem: [],
-      tarefas: [{ id: '3', title: 'Organizar a área de trabalho', completed: false }],
-      trabalho: [{ id: '4', title: 'Atualizar relatório de turnos', completed: false }],
-      estudo: [{ id: '5', title: 'Praticar conceitos de React e TypeScript', completed: false }],
+      tarefas: [],
+      trabalho: [],
+      estudo: [],
     };
   });
 
@@ -181,7 +181,7 @@ export default function App() {
             </button>
           </form>
 
-          {/* Abas de Filtro por Status (Todas, Pendentes, Concluídas) */}
+          {/* Abas de Filtro por Status */}
           <div className="flex gap-1 bg-slate-950 p-1 rounded-lg mb-4 border border-slate-800 text-xs font-medium">
             <button
               type="button"
